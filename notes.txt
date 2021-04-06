@@ -1,0 +1,55 @@
+think about mobile first
+
+HTML
+first build out HTML files
+- 3 separate groups (text, stars, testimonials)
+- import font family
+
+CSS
+- separate file for reusable styles
+- add reset css
+- oen css file for the social proof section of the page
+- look into sass?
+- mobile first
+- use css grid to try to accomplish
+- need hover states
+
+Reusable styles
+- colors
+- text size
+- breakpoints
+- font weight
+- spacing: padding & margins
+
+PLAN
+Regions
+- Content (heading/blurb & Reviews)
+-- Flex
+- Testimonials
+-- Flex
+
+HTML Structure
+- Main
+- Sections (for whole area)
+- Divs (for regions)
+
+Content
+- H1
+- paragraph
+
+Reviews
+list of items (ul)
+- image
+- span (not a heading or paragraph)
+
+Testimonials
+list of items (ul)
+div for image, name, buyer
+image
+Name -> h2
+Span (buyer)
+paragraph
+
+ACTIVE DEVELOPMENT NOTES
+- used SASS for the first time
+- google variable fonts
